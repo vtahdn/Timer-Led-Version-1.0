@@ -12,6 +12,8 @@
 		DE87F3941ECDA834009BE71F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE87F3921ECDA834009BE71F /* Main.storyboard */; };
 		DE87F3961ECDA834009BE71F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE87F3951ECDA834009BE71F /* Assets.xcassets */; };
 		DE87F3991ECDA834009BE71F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE87F3971ECDA834009BE71F /* LaunchScreen.storyboard */; };
+		DE87F3A21ECDA854009BE71F /* green2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE87F3A11ECDA854009BE71F /* green2x.png */; };
+		DE87F3A41ECDA870009BE71F /* grey@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE87F3A31ECDA870009BE71F /* grey@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		DE87F3951ECDA834009BE71F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE87F3981ECDA834009BE71F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DE87F39A1ECDA834009BE71F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE87F3A11ECDA854009BE71F /* green2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = green2x.png; sourceTree = "<group>"; };
+		DE87F3A31ECDA870009BE71F /* grey@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "grey@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +64,18 @@
 				DE87F3951ECDA834009BE71F /* Assets.xcassets */,
 				DE87F3971ECDA834009BE71F /* LaunchScreen.storyboard */,
 				DE87F39A1ECDA834009BE71F /* Info.plist */,
+				DE87F3A01ECDA83B009BE71F /* Resource */,
 			);
 			path = "Timer Led Version 1.0";
+			sourceTree = "<group>";
+		};
+		DE87F3A01ECDA83B009BE71F /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				DE87F3A31ECDA870009BE71F /* grey@2x.png */,
+				DE87F3A11ECDA854009BE71F /* green2x.png */,
+			);
+			name = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,7 +138,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE87F3991ECDA834009BE71F /* LaunchScreen.storyboard in Resources */,
+				DE87F3A21ECDA854009BE71F /* green2x.png in Resources */,
 				DE87F3961ECDA834009BE71F /* Assets.xcassets in Resources */,
+				DE87F3A41ECDA870009BE71F /* grey@2x.png in Resources */,
 				DE87F3941ECDA834009BE71F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
